@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>GitHubPushLib</id>
+    <version>0.1.0</version>
+    <authors>pseudomuto</authors>
+    <owners>pseudomuto</owners>
+    <licenseUrl>https://github.com/pseudomuto/githubpushlib/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/pseudomuto/githubpushlib</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A simple library for pushing files to GitHub programmatically</description>
+    <releaseNotes>For full release notes see https://github.com/pseudomuto/githubpushlib/releases</releaseNotes>
+    <language>en-US</language>
+    <tags>HTTP API GITHUB</tags>
+  </metadata>
+</package>

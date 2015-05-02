@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>IronGitHub</id>
+    <version>0.2.0.0</version>
+    <title>IronGitHub</title>
+    <authors>in2bits (Tim Erickson)</authors>
+    <owners>in2bits (Tim Erickson)</owners>
+    <licenseUrl>https://github.com/in2bits/IronGitHub/blob/master/License.txt</licenseUrl>
+    <projectUrl>https://github.com/in2bits/IronGitHub</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>GitHub API v3 client</description>
+    <releaseNotes>Supports auth, Gist create/read/delete, Repository read, User read, Organization read, Search Users, Search Repositories.</releaseNotes>
+    <copyright>Copyright 2013 in2bits (Tim Erickson)</copyright>
+    <tags>github api v3 gist</tags>
+    <dependencies>
+      <dependency id="ServiceStack.Text" version="3.9.58" />
+    </dependencies>
+  </metadata>
+</package>

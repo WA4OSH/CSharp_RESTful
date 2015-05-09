@@ -59,6 +59,8 @@ namespace HelloWorldService.Controllers
         }
     }
 
+    // allow all origins,  headers (web clients)  and methods (get, post, etc.)
+    [System.Web.Http.Cors.EnableCors(origins: "*", headers: "*", methods: "*")]
     public class ContactsController : ApiController
     {
         private static int nextId = 100;

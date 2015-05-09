@@ -9,8 +9,9 @@ namespace HelloWorldService
     {
         public static void Register(HttpConfiguration config)
         {
-            // Web API configuration and services
-
+            // Enable Cross-Origin Request for web page
+            config.EnableCors();
+            
             // Web API routes
             config.MapHttpAttributeRoutes();
 
